@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<meta http-equiv="cache-control" content="max-age=0" />
+	<meta http-equiv="expires" content="0" />
+	<meta name="author" content="Editora do Brasil" />
+	<meta name="copyright" content="© 2014 Editoradobrasil.com.br" />
+	<meta name="apple-mobile-web-app-title" content="Editora do Brasil">
+	<link rel="stylesheet" href="css/normalize.css" type="text/css">
+	<link rel="stylesheet" href="css/animate.css" type="text/css">
+	<link rel="stylesheet" href="css/template.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+	<title></title>
+</head>
+
+<body>
+<div id="loading"><img src="img/template/loader.gif" alt="Carregando">Carregando</div>
+<div id="init" class="container">
+	<div id="capa">
+		<div class="header">
+			<h1></h1>
+		</div>
+		<div class="subheader">
+			<span>-</span>	
+			<p></p>
+		</div>
+		<div class="acoes">
+			<div>Iniciar</div>
+			<div>créditos</div>
+		</div>
+		<div id="creditos">
+			<div class="barraLogo">
+				<img src="img/template/logo.png">
+			</div>
+			<h2>Projeto Jimboê</h2>
+			<div class="boxTextMask"></div>
+			<div class="boxText">
+				<div class="text-creditos">
+					<strong>Supervisão de arte, editoração e produção digital:</strong> Adelaide Carolina Cerutti<br>
+					<strong>Coordenação de produção digital:</strong> Daniel Cilli<br><br>
+					
+					<strong>Design instrucional:</strong> Mateus Carneiro Ribeiro Alves<br>
+					<strong>Web design:</strong> Thiago Hille e Tiago Lima<br>
+					<strong>Assistência de design digital:</strong> Emília Akemi<br>
+					<strong>Assistência de arte:</strong> Livia Danielli <br>
+					<strong>Revisão:</strong> Equipe Revisão <br>
+					<strong>Pesquisa iconográfica:</strong> Mariane Mota <br>
+					<strong>Imagens/Ilustrações:</strong> Shutterstock; Alamy/Latinstock; Ed Viggiani/Pulsar Imagem; meunierd/ Shutterstock; Delfim Martins/Pulsar Imagens; Rubens Chaves/Pulsar Imagens <br>
+					<strong>Áudio:</strong> Soundsnap<br>
+					<strong>Narração:</strong> Carla Rebelo<br>
+					<strong>Controle de processos editoriais:</strong> Equipe CPE<br>
+				</div>
+			</div>
+			<div class="btnFechaCreditos">FECHAR</div>
+		</div>
+	</div>
+
+	<div id="content">
+	<!-- Início do html aqui -->
+	
+	<!-- ENTRADA -->
+		<div class="entrada">
+			<div class="texto">
+				<p>Quando circulamos pelas cidades, encontramos inúmeras construções, e cada uma delas tem um formato. Será que todas foram planejadas da mesma forma? Separamos algumas construções em dois grupos. Observe o formato delas e descubra o nome dado a cada <br /> um desses grupos.
+				</p>
+
+				<div class="setaEntrada"><img src="img/setaEntrada.png" alt=""></div>
+			</div>
+			<div class="mulher"><img src="img/mulher.png" alt="Mulher Falando"></div>
+		</div>
+		<!-- END ENTRADA -->
+
+		<!-- GAME 1-->
+		<div class="game1">
+			<div class="contentLeft">
+				<div class="btn dragg" id="poliedros">POLIEDROS</div>
+				<div class="dropp" id="corposRedondos"></div>
+				<img src="img/game1ImgLeft.png" alt="Imagem Poliedros">
+			</div>
+			<div class="contentRight">
+				<div class="btn dragg" id="corposRedondos">CORPOS REDONDOS</div>
+				<div class="dropp" id="poliedros"></div>
+				<img src="img/game1ImgRight.png" alt="Imagem Poliedros">
+			</div>
+		</div>
+		<!--END GAME 1-->
+
+		<!-- GAME 2-->
+		<div class="game2" style="display: none;">
+			<div class="contentTop">
+				<ul>
+					<li><img class="dragg" id="naoRolam" src="img/trianguloGame2.png" alt=""></li>
+					<li><img class="dragg" id="naoRolam" src="img/quadradoGame2.png" alt=""></li>
+					<li><img class="dragg" id="rolam"    src="img/cilindroGame2.png" alt=""></li>
+					<li><img class="dragg" id="naoRolam" src="img/trapezioGame2.png" alt=""></li>
+					<li><img class="dragg" id="rolam"    src="img/coneGame2.png" alt=""></li>
+					<li><img class="dragg" id="rolam"    src="img/sphereGame2.png" alt=""></li>
+				</ul>
+			</div>
+			<div class="contentLeft">
+				<div class="header">SÓLIDOS QUE ROLAM</div>
+				<div class="corpo dropp2" id="rolam">
+					<ul></ul>
+					<!-- <p>CORPOS REDONDOS</p> -->
+				</div>
+			</div>
+			<div class="contentRight">
+				<div class="header">SÓLIDOS QUE NÃO ROLAM</div>
+				<div class="corpo dropp2" id="naoRolam">
+					<ul></ul>
+					<!-- <p>POLIEDROS</p> -->
+				</div>
+			</div>
+		</div>
+		<!--END GAME 2-->
+
+		<!-- GAME 3-->
+		<div class="game3" style="display: none;">
+			<div class="contentLeft">
+
+			</div>
+			<div class="contentRight">
+				<ul>
+					<li><img src="img/imgGame3_1.png" alt="" ></li>
+					<li class="certo"><img src="img/imgGame3_2.png" alt="" ></li>
+					<li><img src="img/imgGame3_3.png" alt="" ></li>
+				</ul>
+			</div>
+		</div>
+		<!--END GAME 3-->
+
+		<!-- GAME 4-->
+		<div class="game4" style="display: none;">
+			<div class="contentLeft">
+
+			</div>
+			<div class="contentRight">
+				<ul>
+					<li><img src="img/imgGame4_1.png" alt="" ></li>
+					<li><img src="img/imgGame4_2.png" alt="" ></li>
+					<li class="certo"><img src="img/imgGame4_3.png" alt="" ></li>
+				</ul>
+			</div>
+		</div>
+		<!--END GAME 4-->
+
+		<!-- GAME 5-->
+		<div class="game5" style="display: none;">
+			<div class="contentLeft">
+
+			</div>
+			<div class="contentRight">
+				<ul>
+					<li><img src="img/imgGame5_1.png" alt="" ></li>
+					<li><img src="img/imgGame5_2.png" alt="" ></li>
+					<li class="certo"><img src="img/imgGame5_3.png" alt="" ></li>
+				</ul>
+			</div>
+		</div>
+		<!--END GAME 5-->
+
+		<!-- GAME 6-->
+		<div class="game6" style="display: none;">
+			<div class="contentLeft">
+
+			</div>
+			<div class="contentRight">
+				<ul>
+					<li><img src="img/imgGame6_1.png" alt="" ></li>
+					<li><img src="img/imgGame6_2.png" alt="" ></li>
+					<li class="certo"><img src="img/imgGame6_3.png" alt="" ></li>
+				</ul>
+			</div>
+		</div>
+		<!--END GAME 6-->
+	
+	<!-- Final do html -->
+	</div>
+</div>
+	<script>
+function iniciar_oed_frame(){
+	iniciar_com_tap();
+}	
+	</script>
+
+	<script type="text/javascript" src="../js/carrega_oed.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.10.4.custom.min.js"></script>
+	<script type="text/javascript" src="js/jquery.ui.touch-punch.js"></script>
+	<script type="text/javascript" src="js/PxLoader.js"></script>
+	<script type="text/javascript" src="js/PxLoaderImage.js"></script>
+	<script type="text/javascript" src="js/jquery.spritely.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery-css-transform.js"></script>
+	<script type="text/javascript" src="js/jquery-animate-css-rotate-scale.js"></script>
+	<script type="text/javascript" src="js/template.js"></script>
+	<script type="text/javascript" src="js/funcoes.js"></script>
+</body>	
+</html>

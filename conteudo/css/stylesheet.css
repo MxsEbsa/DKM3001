@@ -1,0 +1,353 @@
+.content {
+  background: #fff; }
+
+.entrada {
+  width: 100%;
+  height: 660px;
+  background: none rgba(255, 248, 206, 0.5);
+  position: absolute;
+  left:0;
+  top: 0px;
+  z-index: 100;
+  display: none; }
+  .entrada .mulher {
+    position: absolute;
+    bottom: -850px;
+    right: 37px; }
+  .entrada .texto {
+    background: #FFFFFF;
+    border-radius: 20px;
+    left: 72px;
+    position: absolute;
+    top: -885px; }
+    .entrada .texto p {
+      width: 390px;
+      font-size: 26px;
+      color: #000;
+      font-family: "MyriadProLight";
+      padding: 20px 0;
+      margin: 0;
+      text-align: center;
+      margin: 18px 37px; }
+    .entrada .texto .setaEntrada {
+      bottom: 25%;
+      position: absolute;
+      right: -70px;
+      z-index: -1; }
+
+.btnDropGame1 {
+  background: #1eb4fc;
+  color: #fff;
+  font-size: 42px;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+  height: 51px !important; }
+
+.game1, .game2 {
+  width: 100%;
+  height: 660px;
+  background: #fff;
+  position: relative; }
+  .game1 .contentLeft, .game2 .contentLeft {
+    width: 48%;
+    height: 660px;
+    float: left;
+    margin-left: 15px; }
+    .game1 .contentLeft .btn, .game1 .game2 .contentLeft .header, .game2 .game1 .contentLeft .header, .game1 .game2 .contentLeft .corpo p, .game2 .game1 .contentLeft .corpo p, .game1 .contentLeft .game2 .contentRight .header, .game1 .contentLeft .game2 .contentRight .corpo p, .game2 .contentRight .corpo .game1 .contentLeft p, .game2 .contentLeft .btn, .game2 .contentLeft .header, .game2 .contentLeft .corpo p, .game2 .contentRight .corpo .contentLeft p {
+      background: #1eb4fc;
+      color: #fff;
+      width: 453px;
+      font-size: 38px;
+      padding: 10px 0;
+      margin-top: 15px;
+      text-align: center;
+      font-weight: bold;
+      cursor: pointer;
+      margin-left: 18px;
+      float: left;
+      font-family: arial;
+      font-weight: normal; }
+    .game1 .contentLeft .dropp, .game2 .contentLeft .dropp {
+      width: 453px;
+      height: 71px;
+      margin: 64px 0 0;
+      margin-left: 18px;
+      float: left;
+      border: 6px solid #00b8ff;
+      font-family: arial;
+      font-weight: normal; }
+    .game1 .contentLeft img, .game2 .contentLeft img {
+      float: left;
+      text-align: center;
+      margin: 10px 17px;
+      width: 469px; }
+  .game1 .contentRight, .game2 .contentRight {
+    width: 48%;
+    height: 660px;
+    float: right;
+    margin-right: 15px; }
+    .game1 .contentRight .btn, .game1 .contentRight .game2 .contentLeft .header, .game1 .contentRight .game2 .contentLeft .corpo p, .game2 .contentLeft .corpo .game1 .contentRight p, .game1 .game2 .contentRight .header, .game2 .game1 .contentRight .header, .game1 .game2 .contentRight .corpo p, .game2 .game1 .contentRight .corpo p, .game2 .contentRight .btn, .game2 .contentLeft .corpo .contentRight p, .game2 .contentRight .header, .game2 .contentRight .corpo p {
+      background: #1eb4fc;
+      color: #fff;
+      width: 453px;
+      font-size: 38px;
+      padding: 10px 0;
+      margin-top: 15px;
+      text-align: center;
+      font-weight: bold;
+      cursor: pointer;
+      margin-left: 18px;
+      float: left;
+      font-family: arial;
+      font-weight: normal; }
+    .game1 .contentRight .dropp, .game2 .contentRight .dropp {
+      width: 453px;
+      height: 71px;
+      margin: 64px 0 0;
+      margin-left: 18px;
+      float: left;
+      border: 6px solid #00b8ff;
+      font-family: arial;
+      font-weight: normal; }
+    .game1 .contentRight img, .game2 .contentRight img {
+      float: left;
+      text-align: center;
+      margin: 10px 17px;
+      width: 469px; }
+
+.game2 .contentTop {
+  float: left;
+  width: 100%;
+  opacity: 0; }
+  .game2 .contentTop ul {
+    width: 100%;
+    height: 144px;
+    float: left;
+    list-style: none; }
+    .game2 .contentTop ul li {
+      float: left;
+      margin-right: 30px;
+      position: relative;
+      z-index: 5; }
+      .game2 .contentTop ul li img {
+        cursor: pointer; }
+.game2 .contentLeft {
+  width: 48%;
+  height: 660px;
+  float: left;
+  margin-left: -3505px; }
+  .game2 .contentLeft .header {
+    cursor: default;
+    font-size: 30px; }
+  .game2 .contentLeft .corpo {
+    background: #cef6ff;
+    margin-left: 18px;
+    margin-top: 72px;
+    width: 453px;
+    height: 53%;
+    position: relative;
+    z-index: 2; }
+    .game2 .contentLeft .corpo p {
+      position: absolute;
+      bottom: 0;
+      background: none;
+      color: #73d8fe;
+      cursor: default;
+      margin: 0; }
+    .game2 .contentLeft .corpo ul {
+      list-style: none;
+      width: 100%;
+      margin: 20px 0 0;
+      padding: 0;
+      float: left; }
+      .game2 .contentLeft .corpo ul li {
+        position: absolute;
+        width: 141px;
+        height: 138px; }
+        .game2 .contentLeft .corpo ul li img {
+          left: 0 !important;
+          top: 0 !important;
+          width: 100% !important;
+          margin: 0 !important; }
+      .game2 .contentLeft .corpo ul li:nth-child(1) {
+        left: 10px;
+        top: 120px; }
+      .game2 .contentLeft .corpo ul li:nth-child(2) {
+        left: 145px; }
+      .game2 .contentLeft .corpo ul li:nth-child(3) {
+        right: 10px;
+        top: 120px; }
+.game2 .contentRight {
+  width: 48%;
+  height: 660px;
+  float: right;
+  margin-right: -3505px; }
+  .game2 .contentRight .header {
+    cursor: default;
+    font-size: 30px; }
+  .game2 .contentRight .corpo {
+    background: #cef6ff;
+    margin-left: 18px;
+    margin-top: 72px;
+    width: 453px;
+    height: 53%;
+    position: relative;
+    z-index: 2; }
+    .game2 .contentRight .corpo p {
+      position: absolute;
+      bottom: 0;
+      background: none;
+      color: #73d8fe;
+      cursor: default;
+      margin: 0; }
+    .game2 .contentRight .corpo ul {
+      list-style: none;
+      width: 100%;
+      margin: 20px 0 0;
+      padding: 0;
+      float: left; }
+      .game2 .contentRight .corpo ul li {
+        position: absolute;
+        width: 141px;
+        height: 138px; }
+        .game2 .contentRight .corpo ul li img {
+          left: 0 !important;
+          top: 0 !important;
+          width: 100% !important;
+          margin: 0 !important; }
+      .game2 .contentRight .corpo ul li:nth-child(1) {
+        left: 10px; }
+      .game2 .contentRight .corpo ul li:nth-child(2) {
+        left: 145px;
+        top: 120px; }
+      .game2 .contentRight .corpo ul li:nth-child(3) {
+        right: 10px; }
+
+.game3 {
+  width: 100%;
+  height: 660px;
+  background: #fff;
+  position: relative; }
+  .game3 .contentLeft {
+    width: 810px;
+    height: 660px;
+    float: left;
+    background: url(../img/bgImgGame3.png) no-repeat;
+    margin-left: -3500px;
+	background-size:cover;}
+  .game3 .contentRight {
+    width: 205px;
+    height: 660px;
+    float: right;
+    background: #fffeca;
+    margin-right: -3500px; }
+    .game3 .contentRight ul {
+      width: 100%;
+      list-style: none;
+      float: left;
+      margin: 0;
+      padding: 0; }
+      .game3 .contentRight ul li {
+        width: 100%;
+        float: left;
+        margin: 15px 0 10px;
+        padding: 0;
+        text-align: center;
+        cursor: pointer; }
+
+.game4 {
+  width: 100%;
+  height: 660px;
+  background: #fff;
+  position: relative; }
+  .game4 .contentLeft {
+    width: 810px;
+    height: 660px;
+    float: left;
+    background: url(../img/bgImgGame4.png) no-repeat;
+    margin-left: -3500px; 
+	background-size:cover;}
+  .game4 .contentRight {
+    width: 205px;
+    height: 660px;
+    float: right;
+    background: #b8f1ff;
+    margin-right: -3500px; }
+    .game4 .contentRight ul {
+      width: 100%;
+      list-style: none;
+      float: left;
+      margin: 0;
+      padding: 0; }
+      .game4 .contentRight ul li {
+        width: 100%;
+        float: left;
+        margin: 15px 0 10px;
+        padding: 0;
+        text-align: center;
+        cursor: pointer; }
+
+.game5 {
+  width: 100%;
+  height: 660px;
+  background: #fff;
+  position: relative; }
+  .game5 .contentLeft {
+    width: 810px;
+    height: 660px;
+    float: left;
+    background: url(../img/bgImgGame5.png) no-repeat;
+    margin-left: -3500px; 
+	background-size:cover;}
+  .game5 .contentRight {
+    width: 205px;
+    height: 660px;
+    float: right;
+    background: #bafffb;
+    margin-right: -3500px; }
+    .game5 .contentRight ul {
+      width: 100%;
+      list-style: none;
+      float: left;
+      margin: 0;
+      padding: 0; }
+      .game5 .contentRight ul li {
+        width: 100%;
+        float: left;
+        margin: 15px 0 10px;
+        padding: 0;
+        text-align: center;
+        cursor: pointer; }
+
+.game6 {
+  width: 100%;
+  height: 660px;
+  background: #fff;
+  position: relative; }
+  .game6 .contentLeft {
+    width: 810px;
+    height: 660px;
+    float: left;
+    background: url(../img/bgImgGame6.png) no-repeat;
+    margin-left: -3500px;
+	background-size:cover;}
+  .game6 .contentRight {
+    width: 205px;
+    height: 660px;
+    float: right;
+    background: #fffbcb;
+    margin-right: -3500px; }
+    .game6 .contentRight ul {
+      width: 100%;
+      list-style: none;
+      float: left;
+      margin: 0;
+      padding: 0; }
+      .game6 .contentRight ul li {
+        width: 100%;
+        float: left;
+        margin: 15px 0 10px;
+        padding: 0;
+        text-align: center;
+        cursor: pointer; }
